@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#guesses {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oportunidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.letter {
+    padding: 5px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.input-area {
+    margin: 30px;
+}
+
+#error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#boton-reintentar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: burlywood;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+#teclado-cont {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#teclado-cont div {
+    display: flex;
+}
+
+.second-row {
+    margin: 0.5rem 0;
+}
+
+.teclado-button {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
